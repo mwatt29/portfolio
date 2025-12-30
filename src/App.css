@@ -1,0 +1,49 @@
+/* 1. TAILWIND CSS IMPORT */
+@import "tailwindcss";
+
+/* 2. YOUR CUSTOM STYLES */
+
+/* Reset and base styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default body margins */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black; /* Good fallback to prevent white flashes */
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.7);
+}
+
+/* Ensure Three.js canvas doesn't cause overflow */
+canvas {
+  display: block;
+}
