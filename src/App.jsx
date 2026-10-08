@@ -431,7 +431,7 @@ export default function Portfolio() {
       name: 'CodeDNA', 
       icon: <Dna size={12} />,
       tagline: 'Visualize Your Codebase\'s Architecture in 3D',
-      description: `CodeDNA analyzes your repository's structure, maps file dependencies, and renders an interactive 3D force-directed graph — giving you X-ray vision into your codebase's DNA.
+      description: `CodeDNA analyzes your repository's structure, maps file dependencies, and renders an interactive 3D force-directed graph, giving you X-ray vision into your codebase's DNA.
       
       It features AST-based parsing (Tree-sitter) for deep code analysis, detecting circular dependencies (Tarjan's algorithm), and calculating centrality scores (PageRank) to identify architectural risks and "God modules".`,
       tech: ['React 19', 'Three.js', 'Tree-sitter', 'Node.js', 'Express'],
@@ -479,13 +479,16 @@ export default function Portfolio() {
               </div>
               <div style={{ color: '#d1d5db', fontSize: '1rem', lineHeight: '1.6', display: 'flex', flexDirection: 'column', gap: '15px' }}>
                 <p>
-                  I’m a Computer Science student and aspiring software engineer passionate about building robust full-stack applications with clean, responsive user interfaces.
+                  Hi, I’m Murray, a Computer Science student and aspiring software engineer based in Canada.
                 </p>
                 <p>
-                  On the frontend, I specialize in component-based architecture using <strong>React, JavaScript, and Tailwind CSS</strong>. On the backend, I design scalable APIs and manage relational databases using <strong>Node.js, Python (FastAPI), and PostgreSQL</strong>.
+                  I enjoy building software that solves real problems, especially projects that combine software engineering, data, and intelligent systems. My experience spans full-stack development, backend systems, data engineering, and AI-driven applications, with technologies including Python, TypeScript, React, Node.js, FastAPI, PostgreSQL, and Docker.
                 </p>
                 <p>
-                  I prioritize code quality and collaboration using Git/GitHub. Experienced with Docker for containerization, I bring a strong problem-solving mindset and a drive to learn new technologies quickly. I'm looking to explore Cloud technologies and DevOps practices next.
+                  I’m particularly interested in building systems that are more than just a working demo. I like understanding how the pieces fit together, from designing the architecture and data pipelines to building the application, testing it, and deploying it.
+                </p>
+                <p>
+                  Outside of coursework, I’m working on personal projects to expand my technical skills and learn how real-world software is built. I’m currently pursuing opportunities where I can contribute to challenging engineering problems, work with strong teams, and continue growing as a software engineer.
                 </p>
               </div>
             </ElectricBorder>
